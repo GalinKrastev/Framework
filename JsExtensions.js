@@ -56,5 +56,5 @@ Object.prototype.tryToSetProperties = Object.prototype.tryToSetProperties ||
             this.extend(objWithProps);
         }
 
-        return this;
+        return addProps;
     };
